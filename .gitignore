@@ -1,0 +1,132 @@
+# Backup files
+*.orig
+*~
+
+/web/bundles/*
+app/bootstrap.php.cache
+app/cache/*
+app/config/parameters.yml
+app/config/.env
+app/logs/*
+web/uploads/avatars/*
+web/uploads/image/*
+web/uploads/institute/*
+web/uploads/note/*
+web/uploads/practical/*
+web/uploads/university/*
+web/uploads/temp_upload/*
+web/uploads/pyq/*
+web/uploads/pyq_solutions/*
+web/uploads/temppdf/*
+web/uploads/upload/*
+web/uploads/question/*
+web/uploads/advt/*
+web/uploads/question/*
+web/uploads/package/*
+web/uploads/classroom/*
+web/uploads/post/*
+/web/dl/*
+/web/dlprint/*
+/web/dlzip/*
+/web/static/thumbs/*
+/api/dumps/*
+/web/sitemaps/*
+web/compiled/*
+web/build/*
+web/service-worker.js
+/web/sw.js
+/yarn-error.log
+/yarn.lock
+service-worker.0.0.1.js
+web/workbox-*
+
+# Cache, session files and logs (Symfony3):
+/var/cache/*
+/var/logs/*
+/var/SymfonyRequirements.php
+/var/bootstrap.php.cache
+
+
+# Parameters:
+
+# Managed by Composer:
+/vendor
+
+
+# PHPUnit
+/phpunit.xml
+
+
+# Composer PHAR
+composer.phar
+
+
+### Node.JS ###
+
+# NPM modules:
+/node_modules
+
+### Assets ###
+
+# Bower:
+/web/assets/vendor
+
+# Generated:
+/web/css/*
+/web/js/*
+
+### Environment specific files for API ###
+
+/api/connection.php
+
+### Vagrant ###
+
+/.vagrant
+/.data
+
+### DOT Files ###
+/.env
+
+### PhpStorm ###
+
+# User-specific stuff:
+/.idea/
+!/.idea/codeStyleSettings.xml
+!/.idea/copyright/profiles_settings.xml
+!/.idea/jsLibraryMappings.xml
+!/.idea/symfony2.xml
+!/.idea/vcs.xml
+
+/tests/output
+
+# always keep .gitkeep
+!.gitkeep
+!/var/logs/.gitkeep
+!/var/cache/.gitkeep
+!/var/sessions/.gitkeep
+!/var/spool/.gitkeep
+
+/Vagrantfile.private
+node_modules/.bin/uglifycss
+node_modules/.bin/tsc
+node_modules/.bin/tsserver
+vendor/zendframework/zend-stdlib/doc/book/index.md
+vendor/bin/pdepend
+vendor/bin/phpmd
+vendor/bin/simple-phpunit
+vendor/bin/security-checker
+vendor/bin/phpcs
+vendor/bin/phpcbf
+vendor/bin/uaparser
+vendor/bin/sentry
+vendor/bin/doctrine-dbal
+vendor/php-curl-class/php-curl-class/examples/vendor
+vendor/php-curl-class/php-curl-class/tests/PHPCurlClass/index.php
+web/uploads/avatars
+web/uploads/upload/pyq
+web/uploads/upload/note
+web/uploads/upload/pyq_solutions
+web/app_local.php
+
+# Ansible retry files
+.retry
